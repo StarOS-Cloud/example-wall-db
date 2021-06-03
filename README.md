@@ -13,6 +13,11 @@
 - `custom.cnf` 数据库配置文件。
 
 ## 在 StarOS 中使用
+
+### 技术栈
+该仓库已内置 Dockerfile，使用 **Dockerfile in source** 技术栈即可。
+
+### 组件配置
 在 StarOS 中，该组件的配置方式如下：
 1. 声明端口，MySQL 协议类型为`TCP`，端口为`3306`
 2. 创建组件参数，用于传输密码至环境变量 `MYSQL_ROOT_PASSWORD`
